@@ -54,5 +54,7 @@ v0.1.0 this is a work-in-progress
 open-source
 
 # references
-Simmerville JA et al, [Urinalysis: A Comprehensive Review](https://www.aafp.org/afp/2005/0315/p1153.html), Am Fam Physician. 2005
+* Simmerville JA et al, [Urinalysis: A Comprehensive Review](https://www.aafp.org/afp/2005/0315/p1153.html), Am Fam Physician. 2005
 https://www.ncbi.nlm.nih.gov/pubmed/15125171
+* Smith GT et al, [Robust dipstick urinalysis using a low-cost, micro-volume slipping manifold and mobile phone] platform(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/), , Lab Chip 2017 
+* Wang CS et al, [Development of a novel mobile application to detect urine protein for nephrotic syndrome disease monitoring](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6543567/), BMC Med Inform Decis Mak. 2019
