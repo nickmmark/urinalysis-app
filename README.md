@@ -6,8 +6,14 @@ I conceived of using a mobile phone to interpret urinalysis dipsticks while doin
 
 # details
 Urinalysis test strips look like this:
+![MultiStix interpretation](https://github.com/nickmmark/urinalysis-app/blob/master/figures/Bayer_MultiStix_interpretation.jpg)
 
 They are interpreted using a schema such as this:
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 
 # version history/known issues
