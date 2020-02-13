@@ -4,7 +4,9 @@ Prototype app to interpret urinalysis dipstick
 # background
 I conceived of using a mobile phone to interpret urinalysis dipsticks while doing an away rotation in Ghana during medical school. It occured to me that there is significant inter-observer variability in performing and interpreting urinalysis dipstick results, which greatly limits the utility of the test. Using a smartphone camera to interpret the strip could standardize interpretation (improving accuracy) and provide a mechanism for documenting the observed results. Although resources are limited, smartphones equipped with cameras and urinalysis dipsticks are widely available even in low and middle income countries. In developing and developed countries alike, there are also significant errors in interpreting the results of urine dipstick tests, particularly when the results of each component are not considered together. Therefore, a smartphone app that used the phones camera for acquistion/interpretation of urine dipstick results could also be useful in clinics and EDs worldwide. An app would also potentially be useful for patients to test themselves or thier loved ones.
 
-# details
+
+![test strip example](https://github.com/nickmmark/urinalysis-app/blob/master/figures/strip_interpretation.png)
+
 Urinalysis test strips look like this:
 ![MultiStix interpretation](https://github.com/nickmmark/urinalysis-app/blob/master/figures/Bayer_MultiStix_interpretation.jpg)
 
@@ -30,9 +32,17 @@ Immediately, several challenges are evident:
 - interpretation is sensitive to lighting conditions 
 - the results must be promptly written down to document them before the strip changes (over-development)
 
+# app design
+
+
+# packages/libraries
+
 
 # version history/known issues
 v0.1.0 this is a work-in-progress
+
+# license
+open-source
 
 # references
 Simmerville JA et al, [Urinalysis: A Comprehensive Review](https://www.aafp.org/afp/2005/0315/p1153.html), Am Fam Physician. 2005
