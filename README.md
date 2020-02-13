@@ -24,7 +24,7 @@ Bilirubin | 30 seconds | white to grey/pink <> trace to 3+
 Glucose | 30 seconds | blue to green to brown <> 0 to 2000 mg/ml glucose
 
 Immediately, several challenges are evident:
-- different samples require waiting different amounts of time before interpretation; reading too soon or too late can cause errors (*under-development* or *over-development*)
+- different samples require waiting different amounts of time before interpretation; [*reading too soon or too late can cause errors*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/figure/F1/) (*under-development* or *over-development*)
 - aligning the sample (which is covered in urine) to the guide (on the side of the bottle) is necessary to interpret the results; this can be messy and it is easy to misread (*'frameshift error'*)
 - there can be significant subjectivity in interpreting the results; for example [8% of men and 0.5% of women are color blind](https://en.wikipedia.org/wiki/Color_blindness) (*misreading*)
 - interpretation is sensitive to *[lighting conditions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/figure/F1/)*  (*misreading*)
