@@ -1,10 +1,11 @@
 # urinalysis-app
 Prototype app to interpret urinalysis dipstick 
 
-# background
+### background
 I conceived of using a mobile phone to interpret urinalysis dipsticks while doing an away rotation in Ghana during medical school. It occured to me that there is significant inter-observer variability in performing and interpreting urinalysis dipstick results, which greatly limits the utility of the test. Using a smartphone camera to interpret the strip could standardize interpretation (improving accuracy) and provide a mechanism for documenting the observed results. Although resources are limited, smartphones equipped with cameras and urinalysis dipsticks are widely available even in low and middle income countries. In developing and developed countries alike, there are also significant errors in interpreting the results of urine dipstick tests, particularly when the results of each component are not considered together. Therefore, a smartphone app that used the phones camera for acquistion/interpretation of urine dipstick results could also be useful in clinics and EDs worldwide. An app would also potentially be useful for patients to test themselves or thier loved ones.
 
 Urinalysis test strips look like this:
+
 ![test strip example](https://github.com/nickmmark/urinalysis-app/blob/master/figures/strip_interpretation.png)
 
 And they are interpreted using a schema such as this:
@@ -31,23 +32,25 @@ Immediately, several challenges are evident:
 - the results must be promptly written down to document them before the strip changes (*over-development* or *transcription error*)
 - *understanding* the test results requires the use to combine the results of several test components and interpret the results holistically (e.g. the presence of both leukocytes and nitrites is highly suggestive of UTI)
 
-# app design
+### app design
+![mockup of proposed interface/functionality](https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif)
+
+<img src="https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif" width="600">
+
 1. The app that instructs the user how to use the test strips and has the user hold the phone steady above the test strip. 
 2. With coaching from the app, the user holds the phone aligned above the strip while the phone's light provides standard illumination and the phone's camera acquires images continuously. 
 3. The app interprets each component of the test at the correct time
 4. The app interprets the overall test results by combining the results from each part of the test and generates a report
 5. The app securely stores the results and offers the user the option to upload/share them with the medical team (email, SMS, healthkit, EHR integration, etc)
 
-![mockup of proposed interface/functionality](https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif)
+### specific capabilities/features/ideas
 
-# specific capabilities/features/ideas
+
+### packages/libraries
 - [ ] [ARkit](https://developer.apple.com/augmented-reality/) used for alignment of the phone
 - [ ] image acquisition using [AVCaptureSession](https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/avcam_building_a_camera_app)
 - [ ] [MFMailCompose](https://developer.apple.com/documentation/messageui/mfmailcomposeviewcontroller) used for email 
 - [ ] [HealthKit](https://developer.apple.com/healthkit/) used for data upload
-
-# packages/libraries
-
 
 # version history/known issues
 v0.1.0 this is a work-in-progress
