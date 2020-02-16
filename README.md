@@ -35,8 +35,6 @@ Immediately, several challenges are evident:
 ### app design
 ![mockup of proposed interface/functionality](https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif)
 
-<img src="https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif" width="600">
-
 1. The app that instructs the user how to use the test strips and has the user hold the phone steady above the test strip. 
 2. With coaching from the app, the user holds the phone aligned above the strip while the phone's light provides standard illumination and the phone's camera acquires images continuously. 
 3. The app interprets each component of the test at the correct time
