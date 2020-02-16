@@ -38,6 +38,8 @@ Immediately, several challenges are evident:
 4. The app interprets the overall test results by combining the results from each part of the test and generates a report
 5. The app securely stores the results and offers the user the option to upload/share them with the medical team (email, SMS, healthkit, EHR integration, etc)
 
+![mockup of proposed interface/functionality](https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif)
+
 # specific capabilities/features/ideas
 - [ ] [ARkit](https://developer.apple.com/augmented-reality/) used for alignment of the phone
 - [ ] image acquisition using [AVCaptureSession](https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/avcam_building_a_camera_app)
