@@ -6,7 +6,7 @@ I conceived of using a mobile phone to interpret urinalysis dipsticks while doin
 
 Urinalysis test strips look like this:
 
-![test strip example](https://github.com/nickmmark/urinalysis-app/blob/master/figures/strip_interpretation.png)
+![test strip example](https://github.com/nickmmark/urinalysis-app/blob/master/figures/strip%20interpretation.jpeg)
 
 And they are interpreted using a schema such as this:
 ![MultiStix interpretation](https://github.com/nickmmark/urinalysis-app/blob/master/figures/Bayer_MultiStix_interpretation.jpg)
