@@ -21,9 +21,6 @@ Immediately, several challenges are evident:
 
 
 ### interpretation schema
-And they are interpreted using a schema such as this:
-![MultiStix interpretation](https://github.com/nickmmark/urinalysis-app/blob/master/figures/Bayer_MultiStix_interpretation.jpg)
-
 Test | Interpretation Time | Result Interpretation
 ------------ | ------------- | -------------
 Leukocytes | 120 seconds | white == negative, purple == positive
@@ -37,8 +34,15 @@ Ketone | 40 seconds | light pink to dark pink <> trace to 3+ ketones
 Bilirubin | 30 seconds | white to grey/pink <> trace to 3+
 Glucose | 30 seconds | blue to green to brown <> 0 to 2000 mg/ml glucose
 
+And they are interpreted using a schema such as this:
+![MultiStix interpretation](https://github.com/nickmmark/urinalysis-app/blob/master/figures/Bayer_MultiStix_interpretation.jpg)
+
+
+
 
 ### app design
+The app uses augmented reality to overlay instructions and interpretation. 
+
 ![mockup of proposed interface/functionality](https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif)
 
 1. The app that instructs the user how to use the test strips and has the user hold the phone steady above the test strip. 
