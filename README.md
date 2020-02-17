@@ -4,10 +4,23 @@ Prototype app to interpret urinalysis dipstick
 ### background
 I conceived of using a mobile phone to interpret urinalysis dipsticks while doing an away rotation in Ghana during medical school. It occured to me that there is significant inter-observer variability in performing and interpreting urinalysis dipstick results, which greatly limits the utility of the test. Using a smartphone camera to interpret the strip could standardize interpretation (improving accuracy) and provide a mechanism for documenting the observed results. Although resources are limited, smartphones equipped with cameras and urinalysis dipsticks are widely available even in low and middle income countries. In developing and developed countries alike, there are also significant errors in interpreting the results of urine dipstick tests, particularly when the results of each component are not considered together. Therefore, a smartphone app that used the phones camera for acquistion/interpretation of urine dipstick results could also be useful in clinics and EDs worldwide. An app would also potentially be useful for patients to test themselves or thier loved ones.
 
-Urinalysis test strips look like this:
+First some context, urinalysis test strips look like this:
 
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.btnx.com%2FProduct%3Fid%3D1967&psig=AOvVaw3zDpv7oIjZPRUuR2d38yQ5&ust=1581984650396000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPij_5qm1-cCFQAAAAAdAAAAABAF)
+
+They are interpreted visually by holding this up to the bottle for 
 ![test strip example](https://github.com/nickmmark/urinalysis-app/blob/master/figures/strip%20interpretation.jpeg)
 
+Immediately, several challenges are evident:
+- different samples require waiting different amounts of time before interpretation (see the schema below for details); [*reading too soon or too late can cause errors*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/figure/F1/) (*under-development* or *over-development*)
+- aligning the sample (which is covered in urine) to the guide (on the side of the bottle) is necessary to interpret the results; this can be messy and it is easy to misread (*'frameshift error'*)
+- there can be significant subjectivity in interpreting the results; for example [8% of men and 0.5% of women are color blind](https://en.wikipedia.org/wiki/Color_blindness) (*misreading*)
+- interpretation is sensitive to *[lighting conditions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/figure/F1/)*  (*misreading*)
+- the results must be promptly written down to document them before the strip changes (*over-development* or *transcription error*)
+- *understanding* the test results requires the use to combine the results of several test components and interpret the results holistically (e.g. the presence of both leukocytes and nitrites is highly suggestive of UTI)
+
+
+### interpretation schema
 And they are interpreted using a schema such as this:
 ![MultiStix interpretation](https://github.com/nickmmark/urinalysis-app/blob/master/figures/Bayer_MultiStix_interpretation.jpg)
 
@@ -24,13 +37,6 @@ Ketone | 40 seconds | light pink to dark pink <> trace to 3+ ketones
 Bilirubin | 30 seconds | white to grey/pink <> trace to 3+
 Glucose | 30 seconds | blue to green to brown <> 0 to 2000 mg/ml glucose
 
-Immediately, several challenges are evident:
-- different samples require waiting different amounts of time before interpretation; [*reading too soon or too late can cause errors*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/figure/F1/) (*under-development* or *over-development*)
-- aligning the sample (which is covered in urine) to the guide (on the side of the bottle) is necessary to interpret the results; this can be messy and it is easy to misread (*'frameshift error'*)
-- there can be significant subjectivity in interpreting the results; for example [8% of men and 0.5% of women are color blind](https://en.wikipedia.org/wiki/Color_blindness) (*misreading*)
-- interpretation is sensitive to *[lighting conditions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/figure/F1/)*  (*misreading*)
-- the results must be promptly written down to document them before the strip changes (*over-development* or *transcription error*)
-- *understanding* the test results requires the use to combine the results of several test components and interpret the results holistically (e.g. the presence of both leukocytes and nitrites is highly suggestive of UTI)
 
 ### app design
 ![mockup of proposed interface/functionality](https://github.com/nickmmark/urinalysis-app/blob/master/figures/urine_app-design.gif)
