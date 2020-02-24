@@ -8,8 +8,10 @@ First some context, urinalysis test strips look like this:
 
 ![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.btnx.com%2FProduct%3Fid%3D1967&psig=AOvVaw3zDpv7oIjZPRUuR2d38yQ5&ust=1581984650396000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPij_5qm1-cCFQAAAAAdAAAAABAF)
 
-They are interpreted visually by holding this up to the bottle for 
+They are interpreted visually by holding this up to the bottle for up to two minutes.
 ![test strip example](https://github.com/nickmmark/urinalysis-app/blob/master/figures/strip%20interpretation.jpeg)
+
+Details of the chemistry and reactions employed can be found [here](https://en.wikipedia.org/wiki/Urine_test_strip).
 
 Immediately, several challenges are evident:
 - different samples require waiting different amounts of time before interpretation (see the schema below for details); [*reading too soon or too late can cause errors*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4935544/figure/F1/) (*under-development* or *over-development*)
@@ -55,6 +57,7 @@ The app uses augmented reality to overlay instructions and interpretation.
 
 
 ### packages/libraries
+- [ ] [CameraX] package for Android
 - [ ] [ARkit](https://developer.apple.com/augmented-reality/) used for alignment of the phone
 - [ ] image acquisition using [AVCaptureSession](https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/avcam_building_a_camera_app)
 - [ ] [MFMailCompose](https://developer.apple.com/documentation/messageui/mfmailcomposeviewcontroller) used for email 
